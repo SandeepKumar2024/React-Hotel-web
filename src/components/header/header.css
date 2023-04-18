@@ -118,5 +118,36 @@
 .date{
     position: absolute;
     top: 60px;
+    z-index: 999;
     
+}
+
+.options{
+    position: absolute;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(153, 148, 148);
+    padding: 20px;
+    gap: 25px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+.optionItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.optionCon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.optionBtn{
+    padding: 2px 8px;
+    cursor: pointer;
+    border: 1px solid rgb(80, 80, 166);
+    
+
 }
